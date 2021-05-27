@@ -21,15 +21,26 @@
     <script src="js/scripts.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <div class="row"></div>
-      <form>
-        <div class="form-group">
-          <label for="palabras">Palabras:</label>
-          <input type="text" id="palabras" />
-          <button class="btn btn-primary" type="submit">Procesar</button>
-        </div>
-      </form>
+    <div
+      class="main-container row align-items-center justify-content-center h-100"
+    >
+      <div class="caja d-flex align-items-center justify-content-center">
+        <form>
+          <div class="form-group">
+            <label for="palabras">Palabras:</label>
+            <textarea
+              class="form-control"
+              type="text"
+              id="palabras"
+              cols="20"
+              rows="1"
+            >
+            </textarea>
+            <button class="boton btn btn-primary" type="submit">
+              Procesar
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   </body>

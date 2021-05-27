@@ -1,0 +1,23 @@
+:root {
+  --color-principal: #9ed9e3;
+  --color-form: #59a17e;
+  --color-btn: #007bff;
+}
+
+body {
+  background-color: var(--color-principal);
+  color: #fff;
+  height: 100vh;
+}
+/* .main-container {
+  height: 100vh;
+} */
+.caja {
+  height: 200px;
+  width: 350px;
+  background-color: var(--color-form);
+  border-radius: 10px;
+}
+.boton {
+  margin-top: 10px;
+}
