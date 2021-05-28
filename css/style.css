@@ -18,6 +18,9 @@ body {
   background-color: var(--color-form);
   border-radius: 10px;
 }
+textarea {
+  display: block;
+}
 .boton {
   margin-top: 10px;
 }
